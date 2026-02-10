@@ -1,0 +1,21 @@
+{
+  "name": "johnbillion-skills",
+  "owner": {
+    "name": "John Blackbourn"
+  },
+  "metadata": {
+    "description": "Agent skills by John Blackbourn",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "wordpress-skills",
+      "description": "WordPress development and security skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/security-vulnerability-triage"
+      ]
+    }
+  ]
+}
