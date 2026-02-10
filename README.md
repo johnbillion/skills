@@ -35,6 +35,12 @@ Install the skills:
 /plugin install wordpress-skills@johnbillion-skills
 ```
 
+## Important
+
+If you're using skills to process sensitive information, ensure that you've configured the privacy settings of your AI agent so your data is not used for model training.
+
+- [Claude Code model improvement privacy settings](https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings).
+
 ## License
 
 MIT
