@@ -4,13 +4,13 @@ My agent skills for Claude Code and other compatible AI agents.
 
 ## Available skills
 
-### security-vulnerability-triage
+### [security-vulnerability-triage](skills/security-vulnerability-triage/SKILL.md)
 
 Autonomously assess the validity of a WordPress security vulnerability report.
 
 Assumptions:
 
-- The WordPress core local development environment is in use at http://localhost:8889/.
+- The WordPress core local development environment is in use at http://localhost:8889.
 - Playwright MCP is available.
 - WordPress-Trac MCP is available.
 - [wp-cli.local.yml](wp-cli.local.yml) is in place in the environment
