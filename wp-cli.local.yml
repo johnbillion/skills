@@ -1,0 +1,4 @@
+path: src/
+
+@wp:
+  ssh: docker-compose:wp_php@cli
