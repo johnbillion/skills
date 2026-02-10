@@ -15,6 +15,10 @@ Assumptions:
 - WordPress-Trac MCP is available.
 - [wp-cli.local.yml](wp-cli.local.yml) is in place in the environment
 
+Usage:
+
+- Save the report description to a file then run the skill with `/security-vulnerability-triage report.md`.
+
 ## Installation
 
 ### Claude Code
