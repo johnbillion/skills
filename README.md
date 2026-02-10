@@ -11,8 +11,8 @@ Autonomously assess the validity of a WordPress security vulnerability report.
 Assumptions:
 
 - The WordPress core local development environment is in use at http://localhost:8889.
-- Playwright MCP is available.
-- WordPress-Trac MCP is available.
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp) is available.
+- [WordPress-Trac MCP](https://github.com/jameswlepage/trac-mcp) is available.
 - [wp-cli.local.yml](wp-cli.local.yml) is in place in the environment
 
 Usage:
