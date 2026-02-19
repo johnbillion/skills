@@ -35,6 +35,8 @@ Install the skills:
 /plugin install wordpress-skills@johnbillion-skills
 ```
 
+Skills installed via a plugin marketplace don't auto-update by default. Change this by running `/plugin`, then go to Marketplaces -> johnbillion/skills -> Enable auto-update.
+
 ## Important
 
 If you're using skills to process sensitive information, ensure that you've configured the privacy settings of your AI agent so your data is not used for model training.
