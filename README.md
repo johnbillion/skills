@@ -18,6 +18,19 @@ Usage:
 
 - Save the report description to a file then run the skill with `/security-vulnerability-triage report.md`.
 
+### [bug-report-triage](skills/bug-report-triage/SKILL.md)
+
+Autonomously assess the validity of a general bug report from a client about a WordPress powered website.
+
+Assumptions:
+
+- A local development environment for the site is available, with its URL retrievable via `wp option get home`.
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp) is available.
+
+Usage:
+
+- Save the report description to a file then run the skill with `/bug-report-triage report.md`.
+
 ## Installation
 
 ### Claude Code
