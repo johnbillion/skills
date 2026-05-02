@@ -20,7 +20,7 @@ Usage:
 
 ### [bug-report-triage](skills/bug-report-triage/SKILL.md)
 
-Autonomously assess the validity of a general bug report from a client about a WordPress powered website.
+Autonomously assess the validity of a general bug report about a WordPress powered website.
 
 Assumptions:
 
@@ -30,6 +30,14 @@ Assumptions:
 Usage:
 
 - Save the report description to a file then run the skill with `/bug-report-triage report.md`.
+
+### [update-actions](skills/update-actions/SKILL.md)
+
+Comprehensively update all actions referenced in all GitHub Actions workflow files to their latest version.
+
+Usage:
+
+- Run the skill with `/update-actions`.
 
 ## Installation
 
@@ -41,10 +49,11 @@ Add this marketplace to Claude Code:
 /plugin marketplace add johnbillion/skills
 ```
 
-Install the skills:
+Install the skills that you want to use:
 
 ```
 /plugin install wordpress-skills@johnbillion-skills
+/plugin install github-skills@johnbillion-skills
 ```
 
 Skills installed via a plugin marketplace don't auto-update by default. Change this by running `/plugin`, then go to Marketplaces -> johnbillion/skills -> Enable auto-update.

@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Agent skills by John Blackbourn",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -16,6 +16,15 @@
       "skills": [
         "./skills/bug-report-triage",
         "./skills/security-vulnerability-triage"
+      ]
+    },
+    {
+      "name": "github-skills",
+      "description": "GitHub skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/update-actions"
       ]
     }
   ]
