@@ -12,3 +12,4 @@ description: Comprehensively update all actions referenced in all GitHub Actions
 - Ensure every sha reference includes a trailing comment containing the exact tag name which may or may not include a leading `v`, eg. `# 1.2.3` or `# v4.0.0`. Floating references such as `v4` are not allowed.
 - Don't update any actions that use a branch reference such as `trunk`, `develop`, `main`, but do flag them in your output.
 - If an action or package receives a major version bump, investigate the changelog and update the workflow file to accommodate any breaking changes.
+- If the `johnbillion/plugin-infrastructure` action gets updated, update the same in composer.json and package.json, then run `npm install` to update package-lock.json.
