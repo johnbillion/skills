@@ -5,6 +5,7 @@ description: Comprehensively update all actions referenced in all GitHub Actions
 
 # Update GitHub Actions
 
+- Find all workflow files in the `.github/workflows` and `.github/actions` directories of this repo.
 - Use `gh` to fetch the very latest version of every action referenced in every GitHub Actions workflow file in this repo.
 - Update all the action references to their latest version. All actions must be pinned to a full length sha hash.
 - Update all `uses: docker` references within workflow files to their very latest version. All references must use the full length sha256 hash.
