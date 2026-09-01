@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Agent skills by John Blackbourn",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
@@ -16,6 +16,15 @@
       "skills": [
         "./skills/bug-report-triage",
         "./skills/security-vulnerability-triage"
+      ]
+    },
+    {
+      "name": "security-skills",
+      "description": "Security research and reporting skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/vulnerability-report-production"
       ]
     },
     {

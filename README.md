@@ -31,6 +31,14 @@ Usage:
 
 - Save the report description to a file then run the skill with `/bug-report-triage report.md`.
 
+### [vulnerability-report-production](skills/vulnerability-report-production/SKILL.md)
+
+Produce a security vulnerability report for a bug bounty programme from source material such as research notes or an earlier draft. Every verifiable technical fact survives; framing, narrative, and rebuttals are stripped.
+
+Usage:
+
+- Save the source material to a file then run the skill with `/vulnerability-report-production source.md`.
+
 ### [update-actions](skills/update-actions/SKILL.md)
 
 Comprehensively update all actions referenced in all GitHub Actions workflow files to their latest version.
@@ -53,6 +61,7 @@ Install the skills that you want to use:
 
 ```
 /plugin install wordpress-skills@johnbillion-skills
+/plugin install security-skills@johnbillion-skills
 /plugin install github-skills@johnbillion-skills
 ```
 
